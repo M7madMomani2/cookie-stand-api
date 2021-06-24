@@ -5,4 +5,11 @@ from .models import CookieStand
 class CookieStandSerializer(serializers.ModelSerializer):
     class Meta:
         model = CookieStand
-        fields = "__all__"
+        fields = (
+            'id',
+            'owner',
+            'description',
+            'minimum_customers_per_hour',
+            'maximum_customers_per_hour',
+            'average_cookies_per_sale',
+            )
