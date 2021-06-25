@@ -6,8 +6,8 @@ Template Project for starting up CRUD API with Django Rest Framework
 
 - add additional dependencies as needed
 - DO NOT migrate yet
-- change `things` folder to the app name of your choice
-- Search through entire code base for `Thing`,`Things` and `things` to modify code to use your resource
+- change `cookie_stands` folder to the app name of your choice
+- Search through entire code base for `cookie_stand`,`cookie_stands` and `cookie_stands` to modify code to use your resource
   - `project/settings.py`
   - `project/urls.py`
   - renamed app's files
